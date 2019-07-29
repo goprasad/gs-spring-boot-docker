@@ -1,0 +1,10 @@
+<servers>
+   <server>
+     <id>${env.DOCKER_REGISTRY}</id>
+     <username>${env.DOCKER_USER}</username>
+     <password>${env.DOCKER_PASSWORD}</password>
+      <configuration>
+      <email>prgorle@microsoft.com</email>
+      </configuration>
+   </server>
+</servers>
